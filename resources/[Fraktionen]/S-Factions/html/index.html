@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <div class="FraktionEinladung" style="display: none;">
+        <img src="src/RectangleFraktion.png" class="fraktioneinladungimg" alt="">
+        <div class="Container-Einladung">
+
+            <h1 class="textfraktioneneinladung">FRAKTION</h1>
+            <h1 class="texteinladung">Einladung</h1>
+            <h1 class="detailsfraktionen">Du wurdest eingeladen der Fraktion</h1>
+            <h1 class="detailsfraktionenname" id="detailsfraktionenname">Bloods</h1>
+            <h1 class="detailsfraktionen2">beizutreten!</h1>
+            <button class="buttonaction" id="ablehnen">Ablehnen</button>
+            <button class="buttonaction" id="annehmen">Annehmen</button>
+        </div>
+    </div>
+    <div class="FrakMenuMain" style="display: none;">
+        <div class="backgroundfrakmainmenu">
+            <img src="src/Rectangle.png" class="frakmenumain" alt="">
+        </div>
+        <div class="menuinformationcontainer">
+            <div class="container-information">
+                <div class="container-informationen-image">
+                    <img src="src/shield1.png" class="imageincontainer" alt="">
+                    <h1 class="informationstext">Fraktion</h1>
+                    <h1 class="unterinformation" id="factionsname">Bloods</h1>
+                </div>
+            </div>
+            <div class="container-information">
+                <div class="container-informationen-image"> <img src="src/UserIconRevive1.png" class="imageincontainer2"
+                        alt=""></div>
+                <h1 class="informationstext">Member</h1>
+                <h1 class="unterinformation" id="members">13</h1>
+            </div>
+            <div class="container-information">
+                <div class="container-informationen-image"> <img src="src/Rectangle2.png" class="imageincontainer3"
+                        alt=""></div>
+                <h1 class="informationstext">Online</h1>
+                <h1 class="unterinformation" id="onlinepeople">5</h1>
+            </div>
+
+        </div>
+        <div class="frontmenu"> <img src="src/add.png" class="closefrakmenu" alt="">
+            <h1 class="textfraktionen" id="textfraktionenfrontmenu">FRAKTION</h1>
+            <h2 class="textmenu" id="textmenufrontmenu">Menu</h2>
+
+            <div class="menufrontübersicht">
+                <div class="container-übersicht">
+                    <h1 class="textmainfeature" id="category1">Übersicht</h1>
+                    <img src="src/Übersicht1.png" class="imageinmiddle" alt="">
+                    <button class="button-mainmenu active">
+                        <h1 class="textinmainmenubutton">
+                            Anzeigen
+                        </h1>
+                    </button>
+                </div>
+                <div class="container-übersicht">
+                    <h1 class="textmainfeature" id="category2">Bank</h1>
+                    <img src="src/Konto1.png" class="imageinmiddle2" alt="">
+                    <button class="button-mainmenuclosed ">
+                        <h1 class="textinmainmenubuttonclosed">
+                            Anzeigen
+                        </h1>
+                        <img src="src/lock-closed.png" class="closedimage" alt="">
+                    </button>
+                </div>
+                <div class="container-übersicht">
+                    <h1 class="textmainfeature" id="category3">Ränge</h1> <img src="src/UserIconRevive2.png"
+                        class="imageinmiddle3" alt=""> <button class="button-mainmenu ">
+                        <h1 class="textinmainmenubutton">
+                            Anzeigen
+                        </h1>
+                    </button>
+                </div>
+                <div class="container-übersicht">
+                    <h1 class="textmainfeature" id="category4">Upgrades</h1> <img src="src/Upgrade1.png"
+                        class="imageinmiddle4" alt="">
+                    <button class="button-mainmenu ">
+                        <h1 class="textinmainmenubutton">
+                            Anzeigen
+                        </h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="fraktionübersicht"> <img src="src/add.png" class="closefrakmenu" alt=""> <img
+                src="src/arrow-back.png" class="goback" alt="">
+            <h1 class="textfraktionen" id="textfraktionenuebersicht">FRAKTION</h1>
+            <h2 class="textmenu" id="textmenuuebersicht">Übersicht</h2>
+            <div class="containerofcategoriys">
+                <h1 class="textstatus" id="statustext">STATUS</h1>
+                <h1 class="textname" id="nametext">NAME</h1>
+                <h1 class="textgrade" id="namegrade">GRADE</h1>
+                <h1 class="textstats" id="namestats">STATS</h1>
+                <h1 class="textedit" id="nameedit">EDIT</h1>
+            </div>
+            <div class="container-player">
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <div class="onlineorinactive"></div>
+                    <h1 class="nameofplayer">Chrisi Espasito</h1>
+                    <h1 class="gradeofplayer">12</h1>
+                    <img src="src/stats.png" class="statsimage" alt="">
+                    <img src="src/cog.png" class="editimage" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bankmenu"><img src="src/arrow-back.png" class="goback" alt="">
+            <img src="src/add.png" class="closefrakmenu" alt="">
+            <h1 class="textfraktionen" id="textfraktionenbank">FRAKTION</h1>
+            <h2 class="textmenu" id="textmenubank">Bank</h2>
+            <div class="menubanke">
+                <img src="src/BankMenu.png" class="Bankmenu1" alt="">
+                <img src="src/BankMenu.png" class="Bankmenu2" alt="">
+                <img src="src/bankmenu2.png" class="Bankmenu3" alt="">
+                <div class="bankmenugehalt">
+                    <h1 class="textgehalt" id="gehalttext">Gehalt</h1>
+                    <h1 class="descriptiongehalt" id="gehaltinformation">Gehalt wird von dem Fraktionskonto abgezogen.
+                    </h1>
+                    <div class="containerofcategoriys3">
+                        <h1 class="textrank" id="rangtext">RANG</h1>
+                        <h1 class="textgehaltmini" id="gehalt">GEHALT</h1>
+                    </div>
+                    <div class="container-listofranks">
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                        <div class="containerofrank">
+                            <img src="src/rankordnung.png" class="imgofrank" alt="">
+                            <h1 class="rankofplayer">OG</h1>
+                            <h1 class="gehaltofplayer">$400</h1>
+                            <img src="src/cog.png" class="cogofgehalt" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bankmenufraktionkonto">
+                    <h1 class="textgehalt2" id="factionskonto">Fraktionskonto</h1>
+                    <h1 class="itemofkonto" id="itemofkonto">$94.500</h1>
+                    <h1 class="texteinzahlen" id="texteinzahlen">EINZAHLEN</h1>
+                    <input type="text" class="inputt-einzahlen" id="inputteinzahlen" placeholder="Betrag"><input
+                        type="text" class="inputt-auszahlen" id="inputtauszahlen" placeholder="Betrag">
+                    <h1 class="textauszahlen" id="textauszahlen">AUSZAHLEN</h1>
+                    <button class="button-approve active" id="approveoben">
+                        <img src="src/checkmark.png" class="checkmarkbutton" alt="">
+                    </button>
+                    <button class="button-approve active" id="approvedrunter">
+                        <img src="src/checkmark.png" class="checkmarkbutton" alt="">
+                    </button>
+                </div>
+                <div class="bankmenufraktionkonto2">
+                    <h1 class="textgehalt2" id="textgehalt2">Geschenk</h1>
+                    <h1 class="descriptiongehalt2" id="descriptiongehalt2">Prämien werden an alle Online Member
+                        verteilt.</h1>
+                    <h1 class="texteinzahlen2" id="texteinzahlen2">VERFÜGB. BETRAG</h1>
+                    <div class="container-background">
+                        <h1 class="verfügbarerbetrag" id="verfügbarerbetrag">100$</h1>
+                    </div>
+                    <h1 class="texteinzahlen3" id="texteinzahlen3">ONLINE MEMBER</h1>
+                    <div class="container-background2">
+                        <h1 class="verfügbarerbetrag" id="onlinemember">5</h1>
+                    </div>
+                    <h1 class="textauszahlen2" id="textauszahlen2">SENDEN</h1>
+                    <input type="text" class="inputt-betragsenden" id="betragsenden" placeholder="Betrag">
+                    <button class="button-approve active" id="approveverteilen">
+                        <img src="src/checkmark.png" class="checkmarkbutton" alt="">
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="Upgrades">
+            <h1 class="textfraktionen" id="textfraktionenfrontmenu">FRAKTION</h1>
+            <h2 class="textmenu" id="textmenufrontmenu">Upgrades</h2>
+            <img src="src/add.png" class="closefrakmenu" alt=""><img src="src/arrow-back.png" class="goback" alt="">
+            <div class="menuupgradesübersicht">
+                <div class="container-übersicht">
+                    <h1 class="textmainfeatureshop">Lager</h1>
+                    <h1 class="textperks" id="lagerplatzplace">+100 Lagerplatz</h1>
+                    <img src="src/Parcel1.png" class="imageinmiddleshop" alt="">
+                    <div class="balken">
+                        <div class="balken1" id="lagerplatz1"></div>
+                        <div class="balken2" id="lagerplatz2"></div>
+                        <div class="balken3" id="lagerplatz3"></div>
+                    </div>
+                    <div class="buttonholder" id="lagerplatz"></div>
+                </div>
+                <div class="container-übersicht">
+                    <h1 class="textmainfeatureshop">Autohaus</h1>
+                    <h1 class="textperks" id="autohausplace">+100 Lagerplatz</h1>
+                    <img src="src/car1.png" class="imageinmiddleshop2" alt="">
+                    <div class="balken">
+                        <div class="balken4" id="carplatz1"></div>
+                        <div class="balken5" id="carplatz2"></div>
+                        <div class="balken6" id="carplatz3"></div>
+                    </div>
+                    <div class="buttonholder" id="autohaus"></div>
+                </div>
+                <div class="container-übersicht">
+                    <h1 class="textmainfeatureshop">Shop</h1>
+                    <h1 class="textperks" id="shopcartplace">+100 Lagerplatz</h1>
+                    <img src="src/Cart2.png" class="imageinmiddleshop4" alt="">
+                    <div class="balken">
+                        <div class="balken7" id="shopplatz1"></div>
+                        <div class="balken8" id="shopplatz2"></div>
+                        <div class="balken9" id="shopplatz3"></div>
+                    </div>
+                    <div class="buttonholder" id="shopcart"></div>
+                </div>
+
+                <div class="container-übersicht">
+                    <h1 class="textmainfeatureshop">Konto</h1>
+                    <h1 class="textperks" id="kontoplaces">+100 Lagerplatz</h1>
+                    <img src="src/Konto1.png" class="imageinmiddleshop3" alt="">
+                    <div class="balken">
+                        <div class="balken10 " id="kontoplatz1"></div>
+                        <div class="balken11" id="kontoplatz2"></div>
+                        <div class="balken12" id="kontoplatz3"></div>
+                    </div>
+                    <div class="buttonholder" id="kontoplace"></div>
+                </div>
+            </div>
+        </div>
+        <div class="submenus">
+            <div class="gehaltsubmenu">
+                <img src="src/RectangleGehalt.png" class="bgofsubgehalt" alt="">
+                <div class="container-gehalt">
+                    <h1 class="textofsubmenugehalt" id="textofsubmenugehalt">FRAKTION</h1>
+                    <h2 class="textofsubmenugehaltdesc" id="textofsubmenugehaltdesc">Gehalt</h2>
+                    <h1 class="textofnamegehalt" id="textofnamegehalt">NAME</h1>
+                    <h1 class="textofgehalt" id="textofgehalt">GEHALT</h1>
+                    <img src="src/Rectangle3.png" class="rectangleofuser" alt="">
+                    <h1 class="nameofrank" id="nameofrank">OG</h1>
+                    <h1 class="howmanygehalt" id="howmanygehalt">$100</h1>
+                    <div class="anzahlbutton3">
+                        <input class="inputt-submenu" id="inputtmoney" placeholder="Anzahl" />
+                    </div>
+                    <button class="button-submenu active" id="gobackwithoutsubmenu">
+                        <h1 class="textinmainmenubutton2">
+                            Zurück
+                        </h1>
+                    </button> <button class="button-submenu active" id="Speichern">
+                        <h1 class="textinmainmenubutton2">
+                            Speichern
+                        </h1>
+                    </button>
+                </div>
+
+            </div>
+            <div class="rankedit">
+                <img src="src/RectangleGehalt.png" class="bgofsubgehalt" alt="">
+                <div class="container-gehalt">
+                    <h1 class="textofsubmenugehalt" id="textoffraktionenrankedit">FRAKTION</h1>
+                    <h2 class="textofsubmenugehaltdesc" id="textoffraktionenrankedit">Rang edit</h2>
+                    <h1 class="textofnamegehalt" id="textofnamerank">NAME</h1>
+                    <h1 class="textofgehalt" id="textofgraderank">GRADE</h1>
+                    <img src="src/Rectangle3.png" class="rectangleofuser" id="rectangleofuser">
+                    <h1 class="nameofrank" id="nameofrankedit">OG</h1>
+                    <h1 class="howmanygehalt" id="gradeedit">$100</h1>
+                    <div class="anzahlbutton3" id="anzahlbuttonneuername">
+                        <input class="inputt-submenu" id="inputtname" placeholder="Neuer Name" />
+                    </div>
+
+                    <button class="button-submenu active" id="einladungerstellen">
+                        <h1 class="textinmainmenubutton2">
+                            Einladung erstellen
+                        </h1>
+                        <img src="src/CHeck.png" class="checkpng" alt="">
+                    </button>
+                    <button class="button-submenu active" id="gobackrankedit">
+                        <h1 class="textinmainmenubutton2">
+                            Zurück
+                        </h1>
+                    </button> <button class="button-submenu active" id="speicherrankedit">
+                        <h1 class="textinmainmenubutton2">
+                            Speichern
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <div class="playeredit">
+
+                <img src="src/RectangleGehalt.png" class="bgofsubgehalt" alt="">
+                <div class="container-gehalt">
+                    <h1 class="textofsubmenugehalt" id="textoffraktionenrankeditplayer">FRAKTION</h1>
+                    <h2 class="textofsubmenugehaltdesc" id="textoffraktionenrankedit2player">Rang edit</h2>
+                    <h1 class="textofnamegehalt" id="textofnamerankplayer">NAME</h1>
+                    <h1 class="textofnamegehalt" id="textofnamerankplayer1">STATUS</h1>
+                    <h1 class="textofgehalt" id="textofgraderankplayer">GRADE</h1>
+                    <img src="src/Rectangle3.png" class="rectangleofuser" id="rectangleofuserplayer">
+                    <div class="onlineorinactive2"></div>
+                    <h1 class="nameofplayers" id="playername">Chrisi Espasito</h1>
+                    <h1 class="howmanygehalt" id="gradeeditplayer">12</h1>
+
+                    <button class="button-submenu4 active" id="befördernedit">
+                        <h1 class="textinmainmenubutton5">
+                            Befördern
+                        </h1>
+                        <img src="src/lock-closed.png" class="locking3" alt="">
+                    </button>
+                    <button class="button-submenu3 active" id="degradierenedti">
+                        <h1 class="textinmainmenubutton4">
+                            Degradieren
+                        </h1>
+                        <img src="src/lock-closed.png" class="locking2" alt="">
+                    </button>
+                    <button class="button-submenu2 locked" id="feueredit">
+                        <h1 class="textinmainmenubutton3 locked">
+                            Feuern
+                        </h1>
+                        <img src="src/lock-closed.png" class="locking" alt="">
+                    </button>
+                    <button class="button-submenu active" id="gobackrankeditplayer">
+                        <h1 class="textinmainmenubutton2">
+                            Zurück
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <div class="statsedit">
+                <img src="src/add.png" class="closestats" alt="">
+                <img src="src/BackgroundStats.png" class="bgofsubgehalt" alt="">
+                <div class="container-gehalt1">
+                    <h1 class="textofsubmenugehalt" id="textoffraktionenrankedit">FRAKTION</h1>
+                    <h2 class="textofsubmenugehaltdesc" id="textoffraktionenrankedit2">Stats</h2>
+                    <h1 class="textofnamegehalt" id="textofnamerankplayerstats">NAME</h1>
+                    <h1 class="textofnamegehalt" id="textofnamerankplayer1stats">STATUS</h1>
+                    <h1 class="textofgehalt" id="textofgraderankplayerstats">GRADE</h1> <img
+                        src="src/RectangleStats.png" class="rectangleofuserstats" id="rectangleofuserplayer">
+                    <div class="onlineorinactive3"></div>
+                    <h1 class="nameofplayers" id="playernamestats">Chrisi Espasito</h1>
+                    <h1 class="howmanygehalt" id="gradeeditplayerstats">12</h1>
+                    <div class="rectangledurschnitt"></div>
+                    <img src="src/Timer1.png" class="imgoftimer" alt="">
+                    <div class="rectangleausgewealtezeit"></div> <img src="src/Timer1.png" class="imgoftimer2" alt="">
+                    <h1 class="textstats3">Durschnitt</h1>
+                    <h1 class="textstats2">Ausgewählte Zeit</h1>
+                    <h1 class="textstatsdesc" id="durschnittsrechnung">20h</h1>
+                    <h1 class="textstatsdesc2" id="ausgeweahltezeit">5h</h1>
+                    <div class="containerofbars">
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                        <div class="outercontainer">
+                            <div class="barofcontainer"></div>
+                        </div>
+                    </div>
+                    <div class="datecontainer">
+                        <h1 class="textofdate">Aug 07</h1>
+                        <h1 class="textofdate">Aug 08</h1>
+                        <h1 class="textofdate">Aug 09</h1>
+                        <h1 class="textofdate">Aug 10</h1>
+                        <h1 class="textofdate">Aug 11</h1>
+                        <h1 class="textofdate">Aug 12</h1>
+                        <h1 class="textofdate">Aug 13</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="franktionränge">
+            <img src="src/add.png" class="closefrakmenu" alt=""><img src="src/arrow-back.png" class="goback" alt="">
+            <h1 class="textfraktionen" id="textfactions">FRAKTION</h1>
+            <h2 class="textmenu" id="textreange">Ränge</h2>
+
+            <div class="containerofcategoriys2">
+                <h1 class="textstatus" id="textstatusnameo">NAME</h1>
+                <h1 class="textgrade" id="textstatusgrade">GRADE</h1>
+                <h1 class="textstats" id="textstatusgehalt">GEHALT</h1>
+                <h1 class="textedit" id="textstatusedit">EDIT</h1>
+            </div>
+            <div class="container-reange">
+                <div class="container-player-innen">
+                    <img src="src/playerractangle.png" class="playerrectangle" alt="">
+                    <h1 class="gradeofplayer">12</h1>
+                    <h1 class="gradeofplayername">OG</h1>
+                    <img src="src/money.png" class="statsimage1" alt="">
+                    <img src="src/cog.png" class="editimage1" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="GarageMenu" style="display: none;">
+        <div class="backgroundfrakmainmenu">
+            <img src="src/RectangleGarage.png" class="Garagemenumain" alt="">
+        </div>
+        <div class="framegarage">
+            <h1 class="textfraktionengarage" id="textfraktionengarage">FRAKTION</h1>
+            <h2 class="textmenugarage" id="textmenugarage">Garage</h2>
+            <div class="buttontop">
+                <div class="buttonausparken" id="buttonausparken">
+                    <h1 class="textinbuttons" id="ausparkenbutton">Ausparken</h1>
+                </div>
+                <div class="buttoneinparken" id="buttoneinparken">
+                    <h1 class="textinbuttons" id="einparkenbutton">Einparken</h1>
+                </div>
+                <div class="buttongarage" id="buttongarage">
+                    <h1 class="textinbuttons" id="garagebutton">Garage</h1>
+                </div>
+                <div class="buttonShop" id="buttonShop">
+                    <h1 class="textinbuttons" id="shopbutton">Shop</h1>
+                </div>
+            </div>
+            <div class="container-cars">
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+                <div class="container-carsinnen">
+                    <h1 class="nameofcar">Mercedes CLA</h1>
+                    <h1 class="numberplate">A5B6C7</h1>
+                    <img src="src/starfull.png" class="starimage" alt="">
+                    <div class="container-carimg">
+                        <img src="carpictures/car1.png" class="carimg" alt="">
+                    </div>
+                    <button class="container-button">
+                        <h1 class="AusparkenText">Ausparken</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="container-buycar"></div>
+        </div>
+    </div>
+    <div class="Fraktionsshop" style="display: none;">
+        <div class="backgroundimage">
+            <img src="src/ShopFactions.png" class="factionsbackground" alt="">
+            <img src="src/Warenkorb.png" class="warenkorbbackground" alt="">
+        </div>
+        <div class="shopframe">
+            <h1 class="fraktiontextshop" id="fraktiontextshop">FRAKTION</h1>
+            <h2 class="shoptext" id="shoptext">Shop</h2>
+            <div class="anzahlbutton"> <input class="inputt" id="inputts" placeholder="Anzahl" /></div>
+            <div class="container-fraktionshop">
+                <div class="item-container">
+                    <img src="src/Group.png" class="groupimg" alt="">
+                    <h1 class="itemlabel">Haze</h1>
+                    <h1 class="preislabel">$100</h1>
+                    <div class="imgcontainer-shop2">
+                        <img src="src/Konto1.png" class="imagequestion" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="warenkorbframe">
+            <h1 class="fraktionwarnekorb" id="fraktionwarnekorb">FRAKTION</h1>
+            <h2 class="shopwarenkorptext" id="shopwarenkorptext">Warenkorb</h2>
+            <h1 class="produkttext" id="produkttext">PRODUKT</h1>
+            <h1 class="aktionentext" id="aktionentext">AKTIONEN</h1>
+            <div class="warenkorb-container">
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+                <div class="warecontainer">
+                    <img src="src/Rectangle3.png" class="imgware" alt="">
+                    <h1 class="warenkorbnameofitem">2x Haze</h1>
+                    <h1 class="warenkorbpreis">$100</h1>
+                    <img src="src/minus.png" class="minus" alt="">
+                    <img src="src/plus.png" class="plus" alt="">
+                    <img src="src/Vector.png" class="delete" alt="">
+                    <div class="imgcontainer">
+                        <img src="src/QuestionMark1.png" class="imigewarenkorb" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="buttonsunten">
+                <div class="warenkorb-img">
+                    <img src="src/Rectangle4.png" class="rectangle4" alt="">
+                    <img src="src/Cart1.png" class="cartimges" alt="">
+                </div>
+                <h1 class="totaltext">Total</h1>
+                <h1 class="totalpreis" id="totalpreis">$2000</h1>
+                <button class="buttonkaufen" id="buttonkaufen" type="button">Kaufen</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="lager" style="display: none;">
+        <img src="src/partoflager.png" class="lagerpart" alt="">
+        <img src="src/partoflager.png" class="lagerpart2" alt="">
+        <div class="leftlager">
+            <div class="buttonItem" id="buttonIteminventory">
+                <h1 class="textinbuttons2" id="itemsbutton">Items</h1>
+            </div>
+            <div class="buttonWaffen" id="buttonWaffeninventory">
+                <h1 class="textinbuttons2" id="waffenbutton">Waffen</h1>
+            </div>
+            <div class="anzahlbutton2">
+                <input class="inputt" id="inputtsinventory" placeholder="Anzahl" />
+            </div>
+            <h1 class="toptextlager" id="toptextlagerleft">FRAKTION</h1>
+            <h2 class="inventarwarenkorb" id="inventarwarenkorb">Inventar</h2>
+
+            <div class="container-itemslager" id="iteminventorylager">
+                <div class="item-containerlager" name="${item.name}" count="${item.count}">
+                    <img src="src/Group.png" class="groupimglager" alt="">
+                    <h1 class="itemlabellager">${item.label}</h1>
+                    <h1 class="preislabellager">${item.count}</h1>
+                    <img src="src/items/bread.png" class="imagequestionlager" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="rightlager">
+            <div class="buttonItem" id="buttonItemlager">
+                <h1 class="textinbuttons2" id="itemsbutton2">Items</h1>
+            </div>
+            <div class="buttonWaffen" id="buttonWaffenlager">
+                <h1 class="textinbuttons2" id="waffenbutton2">Waffen</h1>
+            </div>
+            <div class="anzahlbutton2">
+                <input class="inputt" id="inputtslager" placeholder="Anzahl" />
+            </div>
+            <h1 class="toptextlager" id="toptextlagerright">FRAKTION</h1>
+            <h2 class="lagerwarenkorb" id="lagerwarenkorb">Lager</h2>
+            <div class="warenkorb-img2">
+                <img src="src/Rectangle4.png" class="rectangle5" alt="">
+                <img src="src/Parcel1.png" class="cartimges2" alt="">
+            </div>
+            <div class="lagerplatzinformationen">
+                <h1 class="lagerplatztext" id="lagerplatztext">Lagerplatz</h1>
+                <h1 class="placeplatztext" id="placeplatztext">34/200</h1>
+            </div>
+            <div class="container-itemslager" id="itemlager">
+                <div class="item-containerlager1" name="${item.name}" count="${item.count}">
+                    <img src="src/Group.png" class="groupimglager" alt="">
+                    <h1 class="itemlabellager">${item.label}</h1>
+                    <h1 class="preislabellager">${item.count}</h1>
+                    <img src="src/items/${item.name}.png" class="imagequestionlager" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="HUD">
+        <div class="lefthuddisplay">
+        </div>
+        <div class="middlenotify">
+        </div>
+    </div>
+</body>
+<script src="index.js"> </script>
+
+</html>

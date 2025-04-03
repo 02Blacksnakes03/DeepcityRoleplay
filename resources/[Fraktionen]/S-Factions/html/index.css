@@ -1,0 +1,3063 @@
+@font-face {
+	font-family: "RajdhaniMedium";
+	src: url("fonts/Rajdhani-Medium.ttf");
+}
+@font-face {
+	font-family: "RajdhaniRegular";
+	src: url("fonts/Rajdhani-Regular.ttf");
+}
+@font-face {
+	font-family: "RajdhaniBold";
+	src: url("fonts/Rajdhani-Bold.ttf");
+}
+@font-face {
+	font-family: "RajdhaniSemiBold";
+	src: url("fonts/Rajdhani-SemiBold.ttf");
+}
+@font-face {
+	font-family: "RajdhaniThin";
+	src: url("fonts/Rajdhani-Light.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.fraktioneinladungimg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.Container-Einladung {
+	position: absolute;
+	top: 49.5vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	width: 25vw;
+	height: 26vh;
+}
+.textfraktioneneinladung {
+	position: absolute;
+	font-size: 2.2vw;
+	top: -0.7vh;
+	width: 100%;
+	color: #9b3d2c;
+	text-align: center;
+	font-weight: 700;
+	font-weight: 600;
+	font-family: "RajdhaniBold";
+}
+.texteinladung {
+	position: absolute;
+	font-size: 1.05vw;
+	top: 4.8vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	font-family: "RajdhaniMedium";
+}
+.detailsfraktionen {
+	position: absolute;
+	font-size: 1.05vw;
+	top: 8.2vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	font-family: "RajdhaniMedium";
+}
+.detailsfraktionen2 {
+	position: absolute;
+	font-size: 1.05vw;
+	top: 13.5vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	font-family: "RajdhaniMedium";
+}
+.detailsfraktionenname {
+	position: absolute;
+	font-size: 1.2vw;
+	top: 10.6vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 700;
+	text-align: center;
+	font-family: "RajdhaniMedium";
+}
+.buttonaction {
+	position: relative;
+	border: none;
+	width: 10.5vw;
+	height: 5vh;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+	border: none;
+	outline: none;
+	top: 19vh;
+	left: 1.4vw;
+	border-radius: 0.6vw;
+	border: 1px solid #a9422e3a;
+	margin-left: 0.3vw;
+	font-family: "RajdhaniRegular";
+	font-size: 1vw;
+	cursor: pointer;
+	color: white;
+	font-weight: 200;
+}
+.buttonaction:hover {
+	transition: 1.5s all;
+	border: 1px solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.frakmenumain {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	width: 100%;
+	height: 100%;
+}
+.frontmenu {
+	position: absolute;
+	left: 24vw;
+	height: 69vh;
+	width: 52vw;
+	top: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.textfraktionen {
+	position: absolute;
+	font-size: 2.3vw;
+	top: -1vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.textmenu {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 4.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.menuinformationcontainer {
+	position: absolute;
+	width: 45vw;
+	height: 6vh;
+	top: 25vh;
+	left: 27.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-information {
+	position: relative;
+	width: 10vw;
+	height: 5vh;
+	display: inline-block;
+	margin-left: 3.8vw;
+	left: 1.4vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-informationen-image {
+	position: absolute;
+	width: 2.5vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	border: 0.1vw solid rgba(169, 66, 46, 0.25);
+	background: radial-gradient(
+		61.57% 60.92% at 50% 57.39%,
+		#481c14 0%,
+		#1a0a08 100%
+	);
+}
+.imageincontainer {
+	position: absolute;
+	top: 1.3vh;
+	left: 0.38vw;
+	width: 1.7vw;
+	height: 2.5vh;
+}
+.imageincontainer2 {
+	position: absolute;
+	top: -1.4vh;
+	left: -0.5vw;
+	width: 3.5vw;
+	height: 7.8vh;
+}
+
+.imageincontainer3 {
+	position: absolute;
+	top: -0.5vh;
+	left: -0.5vw;
+	width: 3.5vw;
+	height: 6vh;
+}
+.informationstext {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.7vh;
+	left: 3.25vw;
+	width: 10vw;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.unterinformation {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1.6vh;
+	left: 3.25vw;
+	width: 10vw;
+	color: #5f5f5f;
+	font-weight: 800;
+	text-align: left;
+	font-family: "RajdhaniBold";
+}
+.menufrontübersicht {
+	position: absolute;
+	left: 6vw;
+	width: 40vw;
+	top: 18vh;
+	height: 49vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-übersicht {
+	position: relative;
+	width: 17.5vw;
+	height: 21vh;
+	left: -0.3vw;
+	top: -2vh;
+	margin-top: 3vh;
+	margin-left: 1.5vw;
+	border-radius: 0.4vw;
+	display: inline-block;
+	border: 0.1vw solid #a9422e;
+	background: radial-gradient(
+		61.57% 60.92% at 50% 57.39%,
+		#481c14 0%,
+		#1a0a08 100%
+	);
+}
+.textmainfeature {
+	position: absolute;
+
+	font-size: 1.5vw;
+	top: -0.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.imageinmiddle {
+	position: absolute;
+
+	width: 7.8vw;
+	top: 5vh;
+	left: 5.3vw;
+}
+.imageinmiddle2 {
+	position: absolute;
+	width: 4.8vw;
+	top: 6.4vh;
+	left: 6.2vw;
+}
+.imageinmiddle3 {
+	position: absolute;
+	left: 6.9vw;
+	width: 3.4vw;
+	top: 6.5vh;
+}
+.imageinmiddle4 {
+	position: absolute;
+	width: 2.7vw;
+	top: 6.2vh;
+	left: 7vw;
+}
+.button-mainmenu {
+	position: absolute;
+	width: 10.6vw;
+	height: 4.2vh;
+	top: 15.5vh;
+	left: 3.3vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #5c251a;
+	background: linear-gradient(
+		180deg,
+		rgba(136, 55, 39, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.button-mainmenu.active {
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+
+.button-mainmenu:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+
+.textinmainmenubutton {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.4vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.button-mainmenuclosed {
+	position: absolute;
+	width: 10.6vw;
+	height: 4.2vh;
+	top: 15.5vh;
+	left: 3.3vw;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	background: linear-gradient(
+		180deg,
+		rgba(182, 182, 182, 0.25) -29.41%,
+		rgba(51, 51, 51, 0.25) 100%
+	);
+}
+.textinmainmenubuttonclosed {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.4vh;
+	left: 0vw;
+	width: 100%;
+	color: #58585828;
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textinmainmenubuttonclosedshop {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.2vh;
+	left: 0vw;
+	width: 100%;
+	color: #adadad28;
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textperks {
+	position: absolute;
+	font-size: 0.85vw;
+	top: 3vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.closedimage {
+	position: absolute;
+	width: 1.3vw;
+	left: 4.6vw;
+	top: 0.9vh;
+}
+.bankmenu {
+	position: absolute;
+	left: 24vw;
+	height: 69vh;
+	width: 52vw;
+	top: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.Upgrades {
+	position: absolute;
+	left: 24vw;
+	height: 69vh;
+	width: 52vw;
+	top: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.fraktionübersicht {
+	position: absolute;
+	left: 24vw;
+	height: 69vh;
+	width: 52vw;
+	top: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.container-player {
+	position: absolute;
+	width: 45vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 20vh;
+	left: 3vw;
+	height: 46vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.container-player::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-player::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-player::-webkit-scrollbar-thumb {
+	background: #898989;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.closefrakmenu {
+	position: absolute;
+	width: 3.3vw;
+	right: 0.8vw;
+	cursor: pointer;
+	top: 1vh;
+	z-index: 10;
+}
+.container-player-innen {
+	position: relative;
+	left: 3vw;
+	width: 44.5vw;
+	height: 8vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.playerrectangle {
+	position: absolute;
+	left: 0vw;
+	width: 40vw;
+}
+.containerofcategoriys {
+	position: absolute;
+	left: 6vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 40vw;
+	height: 5vh;
+	top: 15vh;
+}
+
+.textstatus {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 1vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textname {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 6vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textgrade {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 20vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textstats {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 30.3vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textedit {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 36vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+
+.onlineorinactive {
+	position: absolute;
+	border-radius: 2vw;
+	background-color: red;
+	height: 1.7vh;
+	width: 1vw;
+	top: 2.3vh;
+	left: 1.55vw;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(255, 0, 0, 0.25);
+}
+.onlineorinactive.active {
+	background: #00ff0a;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(0, 255, 10, 0.25);
+}
+.nameofplayer {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 0.6vh;
+	width: 13vw;
+	left: 6vw;
+
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.gradeofplayer {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 0.6vh;
+	width: 5vw;
+	left: 18.5vw;
+
+	text-align: center;
+	background-color: rgba(0, 89, 255, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.editimage {
+	position: absolute;
+	top: 1.7vh;
+	width: 1.5vw;
+	right: 7vw;
+	cursor: pointer;
+}
+.statsimage {
+	position: absolute;
+	top: 1.8vh;
+	width: 1.3vw;
+	right: 12.5vw;
+	cursor: pointer;
+}
+
+.franktionränge {
+	position: absolute;
+	left: 24vw;
+	height: 69vh;
+	width: 52vw;
+	top: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.container-reange {
+	position: absolute;
+	width: 45vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 20.7vh;
+	left: 3vw;
+	height: 45vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.container-reange::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-reange::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-reange::-webkit-scrollbar-thumb {
+	background: #898989;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.editimage1 {
+	position: absolute;
+	top: 1.7vh;
+	width: 1.5vw;
+	right: 7vw;
+	cursor: pointer;
+}
+.statsimage1 {
+	position: absolute;
+	top: 2vh;
+	width: 1.3vw;
+	right: 12.3vw;
+	cursor: pointer;
+}
+.gradeofplayername {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 0.6vh;
+	width: 10vw;
+	left: 1.5vw;
+
+	text-align: left;
+	background-color: rgba(0, 89, 255, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.containerofcategoriys2 {
+	position: absolute;
+	left: 6vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 40vw;
+	height: 5vh;
+	top: 16vh;
+}
+
+.buttoncreate {
+	position: absolute;
+	border: none;
+	width: 42vw;
+	height: 5vh;
+	border: 0.1vw solid #a9422e;
+
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+
+	border: none;
+	outline: none;
+	top: 17vh;
+	left: 5.7vw;
+	border-radius: 0.6vw;
+
+	margin-left: 0.3vw;
+	font-family: "RajdhaniMedium";
+	font-size: 0.5vw;
+	cursor: pointer;
+	color: white;
+	font-weight: 100;
+}
+.buttoncreate:hover {
+	transition: 1.5s all;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.menuupgradesübersicht {
+	position: absolute;
+	left: 6vw;
+	width: 40vw;
+	top: 17vh;
+	height: 49vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.textmainfeatureshop {
+	position: absolute;
+
+	font-size: 1.4vw;
+	top: -0.7vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.imageinmiddleshop {
+	position: absolute;
+
+	width: 3.8vw;
+	top: 6.8vh;
+	left: 6.6vw;
+}
+.imageinmiddleshop2 {
+	position: absolute;
+	width: 7.8vw;
+	top: 6.8vh;
+	left: 5.1vw;
+}
+.imageinmiddleshop3 {
+	position: absolute;
+
+	width: 4vw;
+	top: 6.6vh;
+	left: 6.5vw;
+}
+.imageinmiddleshop4 {
+	position: absolute;
+
+	width: 3.5vw;
+	top: 6.8vh;
+	left: 6.8vw;
+}
+.balken1 {
+	position: absolute;
+	left: 3.2vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken2 {
+	position: absolute;
+	left: 6.9vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken3 {
+	position: absolute;
+	left: 10.6vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken1.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken2.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken3.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.menubanke {
+	position: absolute;
+	left: 4vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 44vw;
+	height: 48vh;
+	top: 18vh;
+}
+.Bankmenu1 {
+	position: absolute;
+	width: 15.8vw;
+	top: 22vh;
+	left: 3.2vw;
+	top: 25vh;
+}
+.Bankmenu2 {
+	position: absolute;
+	width: 15.8vw;
+
+	left: 3.2vw;
+}
+.Bankmenu3 {
+	position: absolute;
+	width: 19.3vw;
+	left: 21.2vw;
+}
+.bankmenugehalt {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	left: 22vw;
+	top: 0.5vh;
+	height: 45vh;
+	width: 18.5vw;
+}
+.textgehalt {
+	position: absolute;
+	left: 0vw;
+	top: -0.7vh;
+	color: #a9422e;
+	width: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.textgehalt2 {
+	position: absolute;
+	left: 0vw;
+	top: -1.5vh;
+	color: #a9422e;
+	width: 100%;
+	font-size: 1.4vw;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.itemofkonto {
+	position: absolute;
+	width: 100%;
+	color: #ffffff;
+	width: 100%;
+	top: 1.2vh;
+	font-size: 1.4vw;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.descriptiongehalt {
+	position: absolute;
+	left: 1.5vw;
+	top: 3.4vh;
+	color: #ffffff;
+	line-height: 1.5vh;
+	width: 80%;
+	font-size: 0.8vw;
+	font-weight: 200;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.descriptiongehalt2 {
+	position: absolute;
+	left: 1.5vw;
+	top: 2.4vh;
+	color: #ffffff;
+	line-height: 1.5vh;
+	width: 80%;
+	font-size: 0.8vw;
+	font-weight: 200;
+	text-align: center;
+	font-family: "RajdhaniSemiBold";
+}
+.container-listofranks {
+	position: absolute;
+	left: 1vw;
+	height: 30vh;
+	width: 15.6vw;
+	top: 11vh;
+	background-color: rgba(17, 0, 0, 0);
+	overflow-y: scroll;
+}
+
+.container-listofranks::-webkit-scrollbar {
+	width: 0.1vw;
+}
+
+.container-listofranks::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-listofranks::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.containerofcategoriys3 {
+	position: absolute;
+	left: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 16vw;
+	height: 5vh;
+	top: 7vh;
+}
+.textrank {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 1vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textgehaltmini {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1vh;
+	left: 9vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.containerofrank {
+	position: relative;
+	width: 15vw;
+	top: -0.7vh;
+	margin-top: 1vh;
+	height: 5vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.imgofrank {
+	position: absolute;
+	width: 15.1vw;
+}
+.rankofplayer {
+	position: absolute;
+	text-align: left;
+	font-size: 1vw;
+	width: 5vw;
+	left: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.1vh;
+	color: white;
+	font-family: "RajdhaniRegular";
+}
+.gehaltofplayer {
+	position: absolute;
+	text-align: center;
+	font-size: 1vw;
+	width: 5vw;
+	left: 7.65vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	color: white;
+	font-family: "RajdhaniRegular";
+}
+.bankmenufraktionkonto {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.5vw;
+	top: 0.5vh;
+	height: 20.2vh;
+	width: 15.3vw;
+}
+.bankmenufraktionkonto2 {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.5vw;
+	top: 25.3vh;
+	height: 20.2vh;
+	width: 15.3vw;
+}
+.texteinzahlen {
+	position: absolute;
+	font-size: 0.83vw;
+	top: 5.5vh;
+	left: 1.5vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textauszahlen {
+	position: absolute;
+	font-size: 0.83vw;
+	top: 12.2vh;
+	left: 1.5vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.texteinzahlen2 {
+	position: absolute;
+	font-size: 0.83vw;
+	top: 5.8vh;
+	left: 1.5vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.texteinzahlen3 {
+	position: absolute;
+	font-size: 0.82vw;
+	top: 5.8vh;
+	left: 8.3vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textauszahlen2 {
+	position: absolute;
+	font-size: 0.83vw;
+	top: 12.2vh;
+	left: 1.5vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.container-background {
+	position: absolute;
+	left: 1.4vw;
+	top: 9vh;
+	border-radius: 0.6vw;
+	width: 6vw;
+	border: 1px solid #a9422e38;
+	height: 3.2vh;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 110%
+	);
+}
+.container-background2 {
+	position: absolute;
+	left: 8.2vw;
+	top: 9vh;
+	border-radius: 0.6vw;
+	width: 5.4vw;
+	border: 1px solid #a9422e38;
+	height: 3.2vh;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 110%
+	);
+}
+/*Garage Menu*/
+
+.GarageMenu {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	width: 100%;
+	height: 100%;
+}
+.Garagemenumain {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	width: 70vw;
+	left: 15vw;
+	top: 12.5vh;
+}
+.textfraktionengarage {
+	position: absolute;
+	font-size: 2.3vw;
+	top: -1vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.textmenugarage {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 4.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.framegarage {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	height: 72vh;
+	left: 15vw;
+	width: 70vw;
+	top: 12vh;
+}
+.buttonausparken {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	left: 3.3vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttoneinparken {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	left: 13.3vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonausparken {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	left: 3.3vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonausparken.active {
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	border: 0.1vw solid #a9422e;
+}
+
+.buttoneinparken {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	left: 12.8vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttoneinparken.active {
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	border: 0.1vw solid #a9422e;
+}
+
+.buttongarage {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	right: 13vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttongarage.active {
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	border: 0.1vw solid #a9422e;
+}
+.buttonShop {
+	position: absolute;
+	width: 8vw;
+	height: 4.5vh;
+	top: 10.5vh;
+	right: 3.5vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonShop.active {
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	border: 0.1vw solid #a9422e;
+}
+.container-cars {
+	position: absolute;
+	width: 65vw;
+	height: 53vh;
+	top: 17vh;
+	scroll-behavior: smooth;
+	left: 3vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow-y: scroll;
+}
+.container-cars::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-cars::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-cars::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.container-carsinnen {
+	position: relative;
+	width: 13.92vw;
+	left: -0.5vw;
+	height: 23vh;
+	border-radius: 1vw;
+	margin-left: 1.5vw;
+	margin-top: 3vh;
+	top: -1vh;
+	display: inline-block;
+	border: 0.1vw solid #a9422e;
+	background: radial-gradient(
+		61.57% 60.92% at 50% 57.39%,
+
+		#481c14 0%,
+		#1a0a08 100%
+	);
+}
+.nameofcar {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 0.3vh;
+	left: 1.4vw;
+	width: 10vw;
+	color: #fff;
+	font-weight: 800;
+	overflow: hidden;
+	background-color: rgba(162, 0, 255, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.numberplate {
+	position: absolute;
+	font-size: 0.95vw;
+	top: 3vh;
+	left: 1.4vw;
+	width: 10vw;
+	color: rgba(255, 255, 255, 0.5);
+
+	font-weight: 400;
+	overflow: hidden;
+	background-color: rgba(162, 0, 255, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.starimage {
+	position: absolute;
+	width: 1.5vw;
+	left: 11.3vw;
+	cursor: pointer;
+	top: 2vh;
+}
+.container-button {
+	position: absolute;
+	border: none;
+	border: 0.1vw solid #66281b;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+	width: 11vw;
+	height: 4.5vh;
+	cursor: pointer;
+	top: 17.2vh;
+	left: 1.5vw;
+	border-radius: 0.7vw;
+}
+.container-button:hover {
+	transition: 1s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.container-button1 {
+	position: absolute;
+	border: none;
+	border: 0.1vw solid #66281b;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+	width: 11vw;
+	height: 4.5vh;
+	cursor: pointer;
+	top: 17.2vh;
+	left: 1.5vw;
+	border-radius: 0.7vw;
+}
+.container-button1:hover {
+	transition: 1s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.container-button2 {
+	position: absolute;
+	border: none;
+	border: 0.1vw solid #66281b;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+	width: 11vw;
+	height: 4.5vh;
+	cursor: pointer;
+	top: 17.2vh;
+	left: 1.5vw;
+	border-radius: 0.7vw;
+}
+.container-button2:hover {
+	transition: 1s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.container-carimg {
+	position: absolute;
+	width: 12vw;
+	height: 10vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 6.5svh;
+	left: 1vw;
+}
+.carimg {
+	width: 100%;
+	height: 100%;
+}
+.AusparkenText {
+	position: absolute;
+	width: 100%;
+	left: 0vw;
+	font-size: 0.9vw;
+	font-family: 100;
+	top: -0vh;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	text-align: center;
+	font-family: "RajdhaniThin";
+}
+.textinbuttons {
+	position: absolute;
+	width: 100%;
+	left: 0vw;
+	font-size: 0.85vw;
+	font-family: 100;
+	top: 0.35vh;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	text-align: center;
+	font-family: "RajdhaniThin";
+}
+.backgroundimage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.factionsbackground {
+	position: absolute;
+	left: 15vw;
+	top: 10.5vh;
+	width: 42vw;
+}
+.warenkorbbackground {
+	position: absolute;
+	left: 60vw;
+	top: 10.5vh;
+	width: 23.5vw;
+}
+.shopframe {
+	position: absolute;
+	width: 42vw;
+	top: 10.5vh;
+	left: 15vw;
+	height: 77vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.warenkorbframe {
+	position: absolute;
+	width: 23.5vw;
+	top: 10.5vh;
+	left: 60vw;
+	height: 77vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.fraktiontextshop {
+	position: absolute;
+	font-size: 2.1vw;
+	top: -0.5vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.shoptext {
+	position: absolute;
+	font-size: 1vw;
+	top: 4.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.fraktionwarnekorb {
+	position: absolute;
+	font-size: 2.1vw;
+	top: -0.5vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.shopwarenkorptext {
+	position: absolute;
+	font-size: 1vw;
+	top: 4.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+
+/*Shop*/
+.container-fraktionshop {
+	position: absolute;
+	width: 87%;
+	background-color: rgba(255, 0, 0, 0);
+	top: 18vh;
+	left: 2.5vw;
+	overflow-y: scroll;
+	height: 55vh;
+}
+.container-fraktionshop::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-fraktionshop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-fraktionshop::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.anzahlbutton {
+	position: absolute;
+	width: 10.5vw;
+	height: 4.2vh;
+	top: 10.5vh;
+	left: 15.75vw;
+	border-radius: 0.7vw;
+	border: 0.05vw solid #a9422e50;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.6vw;
+	height: 100%;
+	width: 100%;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	padding: 0vw 0vw;
+	text-align: center;
+	z-index: 29;
+	font-size: 0.9vw;
+	color: rgb(255, 255, 255);
+	outline: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+.inputt:hover {
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(74, 74, 74);
+	transition: color 0.3s ease;
+}
+.item-container {
+	position: relative;
+	width: 6.7vw;
+	cursor: pointer;
+	margin-left: 1.5vw;
+	top: -1.5vh;
+	left: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 12vh;
+	margin-top: 1.8vh;
+	display: inline-block;
+}
+.itemlabel {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.4vh;
+	height: 2.3vh;
+	left: 0.7vw;
+	width: 85%;
+	color: #fff;
+	overflow: hidden;
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.preislabel {
+	position: absolute;
+	font-size: 1vw;
+	top: 7.7vh;
+	height: 5vh;
+	left: 0.7vw;
+	overflow: hidden;
+	width: 80%;
+	color: #fff;
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: right;
+	font-family: "RajdhaniRegular";
+}
+.imagequestion {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 3vw;
+	object-fit: cover;
+}
+.warenkorb-container {
+	position: absolute;
+	width: 80%;
+	background-color: rgba(255, 0, 0, 0);
+	top: 18vh;
+	left: 2.5vw;
+	overflow-y: scroll;
+	height: 46.2vh;
+}
+.warenkorb-container::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.warenkorb-container::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.warenkorb-container::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.warecontainer {
+	position: relative;
+	width: 18vw;
+	height: 7vh;
+	margin-top: 0.8vh;
+	top: -0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.imgware {
+	position: absolute;
+	width: 100%;
+}
+.produkttext {
+	position: absolute;
+	font-size: 1vw;
+	top: 13.5vh;
+	left: 0.7vw;
+	width: 10vw;
+	color: rgba(255, 255, 255, 0.35);
+
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.aktionentext {
+	position: absolute;
+	font-size: 1vw;
+	top: 13.5vh;
+	left: 12.2vw;
+	width: 10vw;
+	color: rgba(255, 255, 255, 0.35);
+
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.imgcontainer {
+	position: absolute;
+	width: 2.8vw;
+	height: 5vh;
+	top: 0.6vh;
+	left: 0.2vw;
+}
+.imigewarenkorb {
+	position: absolute;
+	width: 1.8vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.warenkorbnameofitem {
+	position: absolute;
+	font-size: 1.05vw;
+	top: -0.3vh;
+	left: 3.2vw;
+	width: 10vw;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.warenkorbpreis {
+	position: absolute;
+	font-size: 1vw;
+	top: 2.1vh;
+	left: 3.2vw;
+	width: 10vw;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.minus {
+	position: absolute;
+	top: 2.75vh;
+	left: 11.5vw;
+	cursor: pointer;
+	width: 0.8vw;
+}
+.plus {
+	position: absolute;
+	top: 2.2vh;
+	left: 13.7vw;
+	cursor: pointer;
+	width: 0.8vw;
+}
+.delete {
+	position: absolute;
+	top: 1.9vh;
+	left: 15.6vw;
+	cursor: pointer;
+	width: 1.1vw;
+}
+.groupimg {
+	width: 6.75vw;
+}
+.rectangle4 {
+	position: absolute;
+	top: 66.5vh;
+	width: 3vw;
+	left: 2.5vw;
+}
+.cartimges {
+	position: absolute;
+	left: 3.1vw;
+	top: 68vh;
+	width: 1.9vw;
+}
+.totaltext {
+	position: absolute;
+	font-size: 1vw;
+	top: 66.3vh;
+	left: 6vw;
+	width: 10vw;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.totalpreis {
+	position: absolute;
+	font-size: 1vw;
+	top: 68.6vh;
+	left: 6vw;
+	width: 10vw;
+	color: rgb(255, 255, 255);
+	font-weight: 800;
+	background: rgba(0, 81, 255, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.buttonkaufen {
+	position: absolute;
+	width: 10.8vw;
+	color: rgb(255, 255, 255);
+	height: 5.6vh;
+	font-family: "RajdhaniRegular";
+	top: 66.5vh;
+	font-weight: 800;
+	left: 10.5vw;
+	cursor: pointer;
+	font-size: 0.87vw;
+	letter-spacing: 0.05vw;
+	border-radius: 0.6vw;
+	border: 0.05vw solid #a9422e50;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonkaufen:hover {
+	background: linear-gradient(
+		180deg,
+		rgba(219, 89, 63, 0.574) -29.41%,
+		rgba(85, 34, 24, 0.418) 100%
+	);
+}
+.lefthuddisplay {
+	position: absolute;
+	left: 0vw;
+	height: 30vh;
+	width: 15vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+/*Notify*/
+.notify-container {
+	position: relative;
+	left: 0vw;
+	width: 100%;
+	margin-top: 1vh;
+	height: 7vh;
+
+	background-color: rgba(255, 0, 0, 0);
+}
+.imgbackgroundnotify {
+	position: absolute;
+	left: 0.5vw;
+	top: 0.3vh;
+	width: 15.5vw;
+}
+.notifytop {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 0.1vh;
+	left: 4.3vw;
+	width: 10vw;
+	color: #9b3d2c;
+	font-weight: 900;
+	background: rgba(0, 81, 255, 0);
+	text-align: left;
+	font-family: "RajdhaniMedium";
+}
+.containerofnotifyimage {
+	position: absolute;
+	width: 2.6vw;
+	height: 4.4vh;
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 1.2vh;
+	background: rgba(255, 255, 255, 0.05);
+}
+.shieldimagenotify {
+	position: absolute;
+	width: 1.8vw;
+	left: 0.4vw;
+	top: 0.9vh;
+}
+.lineofnotify {
+	position: absolute;
+	width: 14.4vw;
+	background-color: rgba(169, 66, 46, 1);
+	height: 0.13vh;
+	top: 6.3vh;
+	left: 1vw;
+
+	box-shadow: 0px 0px 2vw 0.1vw rgba(169, 66, 46, 1);
+	border-radius: 10vw;
+}
+.notifydesc {
+	position: absolute;
+	font-size: 0.65vw;
+	top: 2.3vh;
+	left: 4.3vw;
+	width: 10vw;
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	background: rgba(0, 81, 255, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.middlenotify {
+	position: absolute;
+	left: 30vw;
+	top: 6vh;
+	width: 40vw;
+	height: 18vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.notifyinmiddle {
+	position: absolute;
+	left: 4vw;
+	top: 0vh;
+	width: 33vw;
+}
+
+.frameofnotify {
+	position: absolute;
+	left: 1vw;
+	top: 0vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 33vw;
+	height: 16vh;
+	left: 4vw;
+}
+.fraktiontextmiddlenotify {
+	position: absolute;
+	font-size: 1.6vw;
+	top: -0.9vh;
+	left: 0.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 900;
+	background: rgba(0, 81, 255, 0);
+	text-align: center;
+	font-family: "RajdhaniMedium";
+}
+.fraktionannouncetext {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 2.3vh;
+	left: 0vw;
+	background-color: rgba(255, 0, 0, 0);
+	width: 100%;
+	color: #ffffff;
+	font-weight: 300;
+	background: rgba(0, 81, 255, 0);
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.fraktionsannouncedesc {
+	margin-top: 0vh;
+	overflow: hidden;
+	line-height: 2vh;
+	padding-left: 0.6vw;
+	padding-top: 7vh;
+	padding-bottom: 1vh;
+	text-align: center;
+	width: 20%;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 1vw;
+	font-weight: 300;
+	flex: 1;
+	font-family: "RajdhaniRegular";
+	background-color: rgba(255, 0, 0, 0);
+}
+.tester {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 95%;
+	left: 1.5vw;
+	height: 9vh;
+
+	top: 7vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+/*Lager*/
+.lagerpart {
+	position: absolute;
+	left: 7vw;
+	top: 11vh;
+	width: 42vw;
+}
+.lagerpart2 {
+	position: absolute;
+	left: 52vw;
+	top: 11vh;
+	width: 42vw;
+}
+.leftlager {
+	position: absolute;
+	left: 7.5vw;
+	top: 12vh;
+	height: 75vh;
+	width: 41vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.rightlager {
+	position: absolute;
+	left: 52.5vw;
+	top: 12vh;
+	height: 75vh;
+	width: 41vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.lagerwarenkorb {
+	position: absolute;
+	font-size: 1vw;
+	top: 3.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.inventarwarenkorb {
+	position: absolute;
+	font-size: 1vw;
+	top: 3.1vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.toptextlager {
+	position: absolute;
+	font-size: 2.1vw;
+	top: -1.5vh;
+	width: 100%;
+	color: #9b3d2c;
+
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.container-itemslager {
+	position: absolute;
+	left: 1vw;
+	top: 16vh;
+	width: 39vw;
+	height: 58vh;
+	background-color: rgba(255, 0, 60, 0);
+	overflow-y: scroll;
+}
+
+.container-itemslager::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-itemslager::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.container-itemslager::-webkit-scrollbar-thumb {
+	background: #898989;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.anzahlbutton2 {
+	position: absolute;
+	width: 12.5vw;
+	height: 5vh;
+	top: 9vh;
+	left: 2vw;
+	border-radius: 0.7vw;
+	border: 0.05vw solid #a9422e50;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.rectangle5 {
+	position: absolute;
+	top: 2vh;
+	width: 2.5vw;
+	left: 29vw;
+}
+.cartimges2 {
+	position: absolute;
+	left: 29.5vw;
+	top: 3.3vh;
+	width: 1.6vw;
+}
+.lagerplatztext {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 1.5vh;
+	width: 10vw;
+	left: 32.3vw;
+	color: #ffffff;
+	font-weight: 800;
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.placeplatztext {
+	position: absolute;
+	font-size: 0.8vw;
+	top: 3.8vh;
+	width: 10vw;
+	left: 32.3vw;
+	color: #ffffff6f;
+	font-weight: 800;
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.item-containerlager {
+	position: relative;
+	width: 8vw;
+	cursor: pointer;
+	margin-left: 2vw;
+	top: -1.5vh;
+	left: -0.8vw;
+	height: 14.1vh;
+	margin-top: 1.8vh;
+	display: inline-block;
+}
+.item-containerlager1 {
+	position: relative;
+	width: 8vw;
+	cursor: pointer;
+	margin-left: 2vw;
+	top: -1.5vh;
+	left: -0.8vw;
+	height: 14.1vh;
+	margin-top: 1.8vh;
+	display: inline-block;
+}
+.groupimglager {
+	width: 8vw;
+}
+.itemlabellager {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.4vh;
+	height: 2.3vh;
+	left: 0.7vw;
+	width: 85%;
+	pointer-events: none;
+	color: #fff;
+	overflow: hidden;
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "RajdhaniRegular";
+}
+.preislabellager {
+	position: absolute;
+	font-size: 1vw;
+	top: 9.8vh;
+	height: 5vh;
+	right: 0.5vw;
+	pointer-events: none;
+	overflow: hidden;
+	width: 80%;
+	color: #fff;
+	font-weight: 500;
+	background: rgba(255, 0, 0, 0);
+	text-align: right;
+	font-family: "RajdhaniRegular";
+}
+.imagequestionlager {
+	position: absolute;
+	width: 3.5vw;
+	top: 50%;
+	left: 50%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+}
+.buttonItem {
+	position: absolute;
+	width: 8vw;
+	height: 5vh;
+	top: 9vh;
+	right: 12vw;
+	z-index: 100;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonItem.active {
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.buttonWaffen {
+	position: absolute;
+	width: 8vw;
+	height: 5vh;
+	top: 9vh;
+	right: 3vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	z-index: 100;
+	border: 0.1vw solid #4d2017;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.buttonWaffen.active {
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.textinbuttons2 {
+	position: absolute;
+	width: 100%;
+	left: 0vw;
+	pointer-events: none;
+	font-size: 0.85vw;
+	font-family: 100;
+	user-select: none;
+	top: 0.6vh;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	text-align: center;
+	font-family: "RajdhaniThin";
+}
+.inputt-einzahlen {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.5vw;
+	width: 9.2vw;
+	left: 1.4vw;
+	top: 8.65vh;
+	height: 3.3vh;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+
+	font-size: 0.9vw;
+	color: rgba(255, 255, 255, 0.5);
+	outline: none;
+	border: 0.05vw solid #a9422e4d;
+
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.inputt-einzahlen:focus::placeholder {
+	color: transparent;
+}
+.inputt-einzahlen::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	transition: color 0.3s ease;
+}
+.inputt-auszahlen {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.5vw;
+	width: 9.2vw;
+	left: 1.4vw;
+	top: 15.3vh;
+	height: 3.3vh;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+
+	font-size: 0.9vw;
+	color: rgba(255, 255, 255, 0.5);
+	outline: none;
+	border: 0.05vw solid #a9422e4d;
+
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.inputt-auszahlen:focus::placeholder {
+	color: transparent;
+}
+.inputt-auszahlen::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	transition: color 0.3s ease;
+}
+.goback {
+	position: absolute;
+	top: 2.5vh;
+	width: 1.7vw;
+	left: 1.5vw;
+	z-index: 11;
+	cursor: pointer;
+}
+.bgofsubgehalt {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+.textofsubmenugehalt {
+	position: absolute;
+	font-size: 2.1vw;
+	top: -1.3vh;
+	width: 100%;
+	color: #9b3d2c;
+	font-weight: 800;
+	text-align: center;
+	font-family: "RajdhaniBold";
+}
+.textofsubmenugehaltdesc {
+	position: absolute;
+	font-size: 1vw;
+	top: 3.5vh;
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+
+	text-align: center;
+	font-family: "RajdhaniRegular";
+}
+.container-gehalt {
+	position: absolute;
+	left: 38.5vw;
+	height: 44vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 24.5vh;
+	z-index: 11;
+	width: 23vw;
+}
+.textofnamegehalt {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 9.6vh;
+	left: 3vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textofgehalt {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 9.6vh;
+	right: 3.5vw;
+	color: rgba(255, 255, 255, 0.35);
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.rectangleofuser {
+	position: absolute;
+	left: 2vw;
+	top: 13.5vh;
+	width: 19vw;
+}
+.nameofrank {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 14vh;
+	width: 10vw;
+	left: 3.2vw;
+
+	text-align: left;
+	background-color: rgba(0, 89, 255, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.howmanygehalt {
+	position: absolute;
+	font-size: 1.2vw;
+	top: 14vh;
+	width: 6vw;
+	right: 2vw;
+
+	text-align: center;
+	background-color: rgba(0, 89, 255, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.button-submenu {
+	position: absolute;
+	width: 19vw;
+	height: 4.6vh;
+	top: 15.5vh;
+	left: 2vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #5c251a;
+	background: linear-gradient(
+		180deg,
+		rgba(136, 55, 39, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.button-submenu:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.button-submenu.locked {
+	transition: 2s all;
+	background: linear-gradient(
+		180deg,
+		rgba(182, 182, 182, 0.25) -29.41%,
+		rgba(51, 51, 51, 0.25) 100%
+	);
+	border: none;
+}
+#gobackwithoutsubmenu {
+	top: 30vh;
+}
+#Speichern {
+	top: 36vh;
+}
+.textinmainmenubutton2 {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.2vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textinmainmenubutton2.locked {
+	color: rgba(90, 90, 90, 0.25);
+}
+.anzahlbutton3 {
+	position: absolute;
+	width: 19vw;
+	height: 4.3vh;
+	top: 24.3vh;
+	left: 2vw;
+	border-radius: 0.5vw;
+	border: 0.05vw solid #a9422e50;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.inputt-submenu {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.6vw;
+	height: 100%;
+	width: 100%;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	padding: 0vw 0vw;
+	text-align: center;
+	z-index: 29;
+	font-size: 0.9vw;
+	color: rgb(255, 255, 255);
+	outline: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+.inputt-submenu:hover {
+	transition: color 0.6 ease;
+}
+.inputt-submenu:focus::placeholder {
+	color: transparent;
+}
+.inputt-submenu::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.cogofgehalt {
+	position: absolute;
+	right: 0.8vw;
+	width: 1.4vw;
+	top: 1.1vh;
+	cursor: pointer;
+}
+.inputt-betragsenden {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0.5vw;
+	width: 9.2vw;
+	left: 1.4vw;
+	top: 15.5vh;
+	height: 3.3vh;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+
+	font-size: 0.9vw;
+	color: rgba(255, 255, 255, 0.5);
+	outline: none;
+	border: 0.05vw solid #a9422e4d;
+
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.inputt-betragsenden:focus::placeholder {
+	color: transparent;
+}
+.inputt-betragsenden::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	transition: color 0.3s ease;
+}
+
+.button-approve {
+	position: absolute;
+	width: 2.2vw;
+	height: 3.7vh;
+	top: 15.5vh;
+	left: 11.5vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 1px solid #a9422e3e;
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.button-approve:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+
+.checkmarkbutton {
+	position: absolute;
+	width: 1.4vw;
+	left: 0.38vw;
+	top: 0.45vh;
+}
+
+#approveoben {
+	top: 8.5vh;
+}
+
+.verfügbarerbetrag {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.75vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+#anzahlbuttonneuername {
+	top: 20.2vh;
+}
+#einladungerstellen {
+	top: 25.6vh;
+}
+#gobackrankedit {
+	top: 30.9vh;
+}
+#speicherrankedit {
+	top: 36.2vh;
+}
+.checkpng {
+	position: absolute;
+	width: 1.5vw;
+	right: 1vw;
+	top: 0.72vh;
+}
+#textofnamerank {
+	top: 8.5vh;
+}
+#textofgraderank {
+	top: 8.5vh;
+}
+#rectangleofuser {
+	top: 12.4vh;
+}
+#nameofrankedit {
+	top: 13.1vh;
+}
+#gradeedit {
+	top: 13.1vh;
+	right: 1.8vw;
+}
+#textofnamerankplayer {
+	left: 6vw;
+}
+#textofnamerankplayer1 {
+	left: 2.5vw;
+}
+#einladungerstellenplayer {
+	top: 15.1vh;
+}
+#gobackrankeditplayer {
+	top: 36.5vh;
+}
+#speicherrankeditplayer {
+	top: 2.5vh;
+}
+
+#befördernedit {
+	top: 21.5vh;
+}
+#degradierenedti {
+	top: 26.5vh;
+	height: 4.4vh;
+}
+#feueredit {
+	top: 31.5vh;
+	height: 4.4vh;
+}
+#befördernedit {
+	top: 21.5vh;
+	height: 4.4vh;
+}
+#gradeeditplayer {
+	left: 15.2vw;
+	height: 4.4vh;
+}
+.nameofplayers {
+	position: absolute;
+	font-size: 1.1vw;
+	top: 14vh;
+	width: 10vw;
+	left: 6vw;
+
+	text-align: left;
+	background-color: rgba(0, 89, 255, 0);
+	color: rgb(255, 255, 255);
+	font-weight: 300;
+	font-family: "RajdhaniMedium";
+}
+.container-gehalt1 {
+	position: absolute;
+	left: 36.3vw;
+	height: 50vh;
+	background-color: rgba(73, 0, 0, 0);
+	top: 24.5vh;
+	z-index: 11;
+	width: 27.4vw;
+}
+#textofnamerankplayerstats {
+	left: 7.5vw;
+	top: 8vh;
+}
+#textofnamerankplayer1stats {
+	left: 3vw;
+	top: 8vh;
+}
+#textofgraderankplayerstats {
+	left: 21.3vw;
+	top: 8vh;
+}
+.rectangleofuserstats {
+	position: absolute;
+	left: 2.2vw;
+	top: 12vh;
+	width: 23vw;
+	height: 6vh;
+}
+.rectangledurschnitt {
+	position: absolute;
+	width: 2.7vw;
+	height: 5.5vh;
+	top: 20vh;
+	left: 4vw;
+	border: 1px solid rgba(169, 66, 46, 0.25);
+	border-radius: 0.4vw;
+	background: radial-gradient(
+		61.57% 60.92% at 50% 57.39%,
+		#481c14 0%,
+		#1a0a08 100%
+	);
+}
+.rectangleausgewealtezeit {
+	position: absolute;
+	width: 2.7vw;
+	height: 5.5vh;
+	top: 20vh;
+	left: 14vw;
+	border: 1px solid rgba(169, 66, 46, 0.25);
+	border-radius: 0.4vw;
+	background: radial-gradient(
+		61.57% 60.92% at 50% 57.39%,
+		#481c14 0%,
+		#1a0a08 100%
+	);
+}
+#playernamestats {
+	top: 12.3vh;
+	left: 7.5vw;
+}
+#gradeeditplayerstats {
+	top: 12.3vh;
+}
+.onlineorinactive2 {
+	position: absolute;
+	border-radius: 2vw;
+	background-color: red;
+	height: 1.7vh;
+	width: 1vw;
+	top: 14.1vh;
+	left: 3.85vw;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(255, 0, 0, 0.25);
+}
+.onlineorinactive2.active {
+	background: #00ff0a;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(0, 255, 10, 0.25);
+}
+.datecontainer {
+	position: absolute;
+	bottom: 1vh;
+	width: 100%;
+	height: 2.5vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.onlineorinactive2 {
+	position: absolute;
+	border-radius: 2vw;
+	background-color: red;
+	height: 1.7vh;
+	width: 1vw;
+	top: 15.7vh;
+	left: 3.3vw;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(255, 0, 0, 0.25);
+}
+.onlineorinactive2.active {
+	background: #00ff0a;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(0, 255, 10, 0.25);
+}
+.onlineorinactive3 {
+	position: absolute;
+	border-radius: 2vw;
+	background-color: red;
+	height: 1.7vh;
+	width: 1vw;
+	top: 14vh;
+	left: 3.7vw;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(255, 0, 0, 0.25);
+}
+.onlineorinactive3.active {
+	background: #00ff0a;
+	box-shadow: 0vw 0vw 1vw 0vw rgba(0, 255, 10, 0.25);
+}
+.button-submenu2 {
+	position: absolute;
+	width: 19vw;
+	height: 4.6vh;
+	top: 15.5vh;
+	left: 2vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #5c251a;
+	background: linear-gradient(
+		180deg,
+		rgba(136, 55, 39, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.button-submenu2:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.button-submenu2.locked {
+	transition: 2s all;
+	background: linear-gradient(
+		180deg,
+		rgba(182, 182, 182, 0.25) -29.41%,
+		rgba(51, 51, 51, 0.25) 100%
+	);
+	border: none;
+}
+.textinmainmenubutton3 {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.2vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textinmainmenubutton3.locked {
+	color: rgba(90, 90, 90, 0.25);
+}
+.balken4 {
+	position: absolute;
+	left: 3.2vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken5 {
+	position: absolute;
+	left: 6.9vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken6 {
+	position: absolute;
+	left: 10.6vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken4.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken5.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken6.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken7 {
+	position: absolute;
+	left: 3.2vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken8 {
+	position: absolute;
+	left: 6.9vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken9 {
+	position: absolute;
+	left: 10.6vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken7.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken8.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken9.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken10 {
+	position: absolute;
+	left: 3.2vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken11 {
+	position: absolute;
+	left: 6.9vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken12 {
+	position: absolute;
+	left: 10.6vw;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+	width: 3.4vw;
+	top: 14.2vh;
+	height: 0.5vh;
+	border-radius: 1vw;
+}
+.balken10.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken11.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+.balken12.active {
+	background: linear-gradient(180deg, #d54f37 -29.41%, #752f22 100%);
+	box-shadow: 0vw 0vw 1vw 0vw #a9422e;
+}
+
+.containerofbars {
+	position: absolute;
+	left: 1vw;
+	width: 93%;
+	top: 27vh;
+	height: 18vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.imgoftimer {
+	position: absolute;
+	width: 1.5vw;
+	top: 21.2vh;
+	left: 4.65vw;
+}
+.imgoftimer2 {
+	position: absolute;
+	width: 1.5vw;
+	top: 21.2vh;
+	left: 14.7vw;
+}
+.textstats3 {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	top: 19.5vh;
+	left: 7vw;
+	margin-left: 0.5vw;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniBold";
+}
+.textstats2 {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	top: 19.5vh;
+	left: 17vw;
+	margin-left: 0.5vw;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniBold";
+}
+.textstatsdesc {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	top: 21.7vh;
+	left: 7vw;
+	margin-left: 0.5vw;
+	color: #ffffff80;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniBold";
+}
+.textstatsdesc2 {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	top: 21.7vh;
+	left: 17vw;
+	margin-left: 0.5vw;
+	color: #ffffff80;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniBold";
+}
+.outercontainer {
+	position: relative;
+	display: inline-block;
+	bottom: -6.1vh;
+	width: 2.6vw;
+	height: 12vh;
+	margin-left: 0.8vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.barofcontainer {
+	position: absolute;
+	left: -0.2vw;
+	width: 2.6vw;
+	height: 12vh;
+	bottom: 0vh;
+	cursor: pointer;
+	border-radius: 0.7vw;
+
+	background: linear-gradient(
+		180deg,
+		rgba(219, 88, 63, 0.25) 0%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+.barofcontainer:hover {
+	background: linear-gradient(180deg, #9b3d2c 0%, #3f1a13 100%);
+
+	box-shadow: 0vw 0vw 1vw 0vw rgba(169, 66, 46, 0.25);
+}
+.barofcontainer.active {
+	background: linear-gradient(180deg, #9b3d2c 0%, #3f1a13 100%);
+	box-shadow: 0vw 0vw 1vw 0vw rgba(169, 66, 46, 0.25);
+}
+.textofdate {
+	position: relative;
+	display: inline-block;
+	color: white;
+	font-size: 0.9vw;
+	top: -1.5vh;
+	left: 0.7vw;
+	margin-left: 1vw;
+	color: #ffffff;
+	font-weight: 400;
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.closestats {
+	position: absolute;
+	width: 3.3vw;
+	right: 36.6vw;
+	cursor: pointer;
+	top: 25vh;
+	z-index: 20;
+}
+.containermiddlenotify {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	margin-top: 2vh;
+	top: -2vh;
+	min-height: 7vh;
+	border-radius: 0.6vw;
+	border: 0.05 solid #a9422e;
+	background: radial-gradient(
+		75.09% 74.24% at 50% 57.39%,
+		#2f120d 0%,
+		#000 100%
+	);
+}
+.button-submenu3 {
+	position: absolute;
+	width: 19vw;
+	height: 4.6vh;
+	top: 15.5vh;
+	left: 2vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #5c251a;
+	background: linear-gradient(
+		180deg,
+		rgba(136, 55, 39, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.button-submenu3:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.button-submenu3.locked {
+	transition: 2s all;
+	background: linear-gradient(
+		180deg,
+		rgba(182, 182, 182, 0.25) -29.41%,
+		rgba(51, 51, 51, 0.25) 100%
+	);
+	border: none;
+}
+.button-submenu4 {
+	position: absolute;
+	width: 19vw;
+	height: 4.6vh;
+	top: 15.5vh;
+	left: 2vw;
+	cursor: pointer;
+	border-radius: 0.5vw;
+	border: 0.1vw solid #5c251a;
+	background: linear-gradient(
+		180deg,
+		rgba(136, 55, 39, 0.25) -29.41%,
+		rgba(85, 34, 24, 0.25) 100%
+	);
+}
+
+.button-submenu4:hover {
+	transition: 2s all;
+	border: 0.1vw solid #a9422e;
+	background: linear-gradient(180deg, #9b3d2c -29.41%, #3f1a13 100%);
+}
+.button-submenu4.locked {
+	transition: 2s all;
+	background: linear-gradient(
+		180deg,
+		rgba(182, 182, 182, 0.25) -29.41%,
+		rgba(51, 51, 51, 0.25) 100%
+	);
+	border: none;
+}
+.textinmainmenubutton4 {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.2vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textinmainmenubutton4.locked {
+	color: rgba(90, 90, 90, 0.25);
+}
+.textinmainmenubutton5 {
+	position: absolute;
+	font-size: 1vw;
+	top: -0.2vh;
+	left: 0vw;
+	width: 100%;
+	color: #ffffff;
+	font-weight: 400;
+
+	background-color: rgba(255, 0, 162, 0);
+	font-family: "RajdhaniRegular";
+}
+.textinmainmenubutton5.locked {
+	color: rgba(90, 90, 90, 0.25);
+}
+.imgcontainer-shop2 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0vh;
+	left: 0vw;
+	overflow: hidden;
+}
