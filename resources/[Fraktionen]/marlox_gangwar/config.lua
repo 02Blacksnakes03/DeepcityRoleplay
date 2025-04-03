@@ -14,7 +14,7 @@ GANGWAR = {
     },
 }
 GANGWAR.MONEY = {
-    StartingMoney = 500, --StartingMoney
+    StartingMoney = 5000, --StartingMoney
     Givegwmoneyperkill = 5, --How much gangwar money should there be per kill?
     GiveMoneyfortakenflag = 5, --How much gangwar money should there be taken a flags
 }
@@ -44,14 +44,14 @@ Discord = {--in suser.lua
 GANGWAR.zones = {
     ["Mirror"] = {
         location = vector3(813.0961, -280.8333, 66.4624),--Zones midpoint
-        zonescale = 140.0,--zone size
+        zonescale = 340.0,--zone size
         Gangwargoin = {x = 817.5035, y = -277.9959, z = 66.4623, heading = 100.0},-- Gangwar backup go in for attacker
         spawnaftergw = {x = 298.3, y = -572.3, z = 43.3, heading = 100.0},-- Gangwar backup  for spawn after Gangwar
         spawnd = {x = 600.3, y =  89.8, z = 92.8, heading = 100.0},--Attackers spawn
         spawna = {x = 1248.6, y =  -347.7, z = 69.1, heading =9.8869},--defender spawn
         howmanydef = 0,
         howmanyatak = 0,
-        Zeit = 3,--minutes
+        Zeit = 40,--minutes
         bucket = 231,--Dimension
         car = false,-- Car despawns when driving in a circle
         ausparker = {
@@ -67,7 +67,7 @@ GANGWAR.zones = {
             },
         },
         Waffenvonstaat = true,
-        Infinity = true,-- infinity ammo?
+        Infinity = false,-- infinity ammo?
         Weapons = {
             {label = 'HEAVYRIFLE | Price 15', action = 'WEAPON_HEAVYRIFLE', components = GetHashKey('component_at_pi_supp_02'), price = 15, giveonstart = false},
             {label = 'ADVANCEDRIFLE | Price 25', action = 'WEAPON_ADVANCEDRIFLE', components = GetHashKey('component_at_pi_supp_02'), price = 25, giveonstart = true},

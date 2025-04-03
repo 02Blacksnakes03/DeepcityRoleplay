@@ -387,5 +387,5 @@ Citizen.CreateThread( function()
           local formattedCoordss = {x = x, y = y, z = z }
           RespawnPed(playerPed, formattedCoordss, 120.0)
           StopScreenEffect('DeathFailOut')
-          Wait(3000)
+          Wait(60000)
   end)  
