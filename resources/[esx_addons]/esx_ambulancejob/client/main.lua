@@ -378,3 +378,14 @@ Citizen.CreateThread( function()
 	  RestorePlayerStamina(PlayerId(), 1.0)
 	end
   end)
+
+  RegisterNetEvent('esx_ambulancejob_Revive_gangwar')
+  AddEventHandler('esx_ambulancejob_Revive_gangwar', function(x,y,z)
+          local playerPed = PlayerPedId();
+          TriggerServerEvent('esx_ambulancejob:setDeathStatus', false)
+          TriggerServerEvent("esx_ambulancejob:setstabile",false)
+          local formattedCoordss = {x = x, y = y, z = z }
+          RespawnPed(playerPed, formattedCoordss, 120.0)
+          StopScreenEffect('DeathFailOut')
+          Wait(3000)
+  end)  

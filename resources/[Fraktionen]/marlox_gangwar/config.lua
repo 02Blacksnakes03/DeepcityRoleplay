@@ -24,7 +24,7 @@ Config = {
     esxgetSharedObjectevent = 'esx:getSharedObject',
     esxprefix2 = "esx:",
     deleteweaponsfromloadouit = true,--Only Remove from Loadout not from xplayer
-    ESX19 = false,
+    ESX19 = true,
 }
 Style = {
     MarkerRGB = {r = 0, g = 138, b = 218, size = 1.5},
