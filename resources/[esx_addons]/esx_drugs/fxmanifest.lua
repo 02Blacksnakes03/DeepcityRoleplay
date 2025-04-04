@@ -20,7 +20,8 @@ client_scripts {
 	'locales/*.lua',
 	'config.lua',
 	'client/main.lua',
-	'client/weed.lua'
+	'client/weed.lua',
+	'client/kevlar.lua'
 }
 
 dependencies {
